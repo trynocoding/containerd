@@ -19,7 +19,7 @@
 | 主题 | 文档 | 重点 |
 |---|---|---|
 | OCI 镜像规范解剖 | [实验](oci-image-spec-anatomy-2.2.5.md) | 用 ctr 拆解真实镜像：Index/Manifest/Config/Layer、双摘要校验、与 content store / GC / snapshotter 的源码对应 |
-| OCI 运行时规范解剖 | [实验](oci-runtime-spec-anatomy-2.2.5.md) | 用 runc/ctr 把镜像跑成容器：filesystem bundle、config.json 字段验证、Image→Runtime Spec 映射、shim/runc 进程链、overlayfs rootfs |
+| OCI 运行时规范解剖 | [实验](oci-runtime-spec-anatomy-2.2.5.md) | 用 runc/ctr 把镜像跑成容器：filesystem bundle、config.json 字段验证、Image→Runtime Spec 映射、shim/runc 进程链、overlayfs rootfs；并以 k8s pod 容器对照 config.json（共享 sandbox namespace、systemd cgroup、k8s 限额落地、sandbox 级 shim） |
 
 ## 源码基线
 
