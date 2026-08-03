@@ -14,6 +14,12 @@
 | 第 7 章 | [伴读](chapter7-core-components-2.2.5.md) | 插件依赖图、API/Core/Backend、Runtime v2、shim、NRI |
 | 第 8 章 | [伴读](chapter8-production-practice-2.2.5.md) | Metrics、Prometheus/Grafana、Go Client、NRI 插件开发 |
 
+## 专题实验
+
+| 主题 | 文档 | 重点 |
+|---|---|---|
+| OCI 镜像规范解剖 | [实验](oci-image-spec-anatomy-2.2.5.md) | 用 ctr 拆解真实镜像：Index/Manifest/Config/Layer、双摘要校验、与 content store / GC / snapshotter 的源码对应 |
+
 ## 源码基线
 
 containerd 2.2.5 源码中的关键依赖：
